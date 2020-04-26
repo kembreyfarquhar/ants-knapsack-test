@@ -1,0 +1,32 @@
+.game-container {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .left-panel {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+    .leaderboard-container {
+      background-color: rgb(117, 212, 117);
+      flex: 1;
+      margin: 0 10px 5px 0;
+      text-align: center;
+    }
+
+    .chat-container {
+      background-color: skyblue;
+      flex: 1;
+      margin: 5px 10px 0 0;
+      text-align: center;
+    }
+  }
+
+  .room-container {
+    outline: none;
+  }
+}
